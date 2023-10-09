@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="tV6-Jt-Id6">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Lab5" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="download1" translatesAutoresizingMaskIntoConstraints="NO" id="hSb-ea-5nt">
+                                <rect key="frame" x="0.0" y="103" width="393" height="715"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A8x-O6-veV">
+                                <rect key="frame" x="139.33333333333334" y="497" width="114.33333333333334" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Level 2">
+                                            <attributes>
+                                                <font key="NSFont" size="28" name="Helvetica"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="ior-DW-onN" kind="show" id="T3n-Qv-M6m"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6YP-T3-hI6">
+                                <rect key="frame" x="139.33333333333334" y="352" width="114.33333333333334" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Level 1">
+                                            <attributes>
+                                                <font key="NSFont" size="28" name="Helvetica"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="nkI-QA-iSE" kind="show" id="DaI-lN-Wq6"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Story App" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nbM-uu-e8b">
+                                <rect key="frame" x="99.333333333333329" y="163" width="194.66666666666669" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="46"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bGn-K8-YwD">
+                                <rect key="frame" x="285" y="713" width="71" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" systemColor="labelColor"/>
+                                <buttonConfiguration key="configuration" style="plain" buttonSize="large">
+                                    <backgroundConfiguration key="background" image="info.circle" catalog="system"/>
+                                    <attributedString key="attributedTitle"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="Xeq-ry-ySK" kind="show" id="OFE-pt-3Yr"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="fJo-JG-Zvf"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1027.5700934579438" y="4.5356371490280782"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="LbX-3K-Uc0">
+            <objects>
+                <viewController id="nkI-QA-iSE" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="VUw-0n-BBL">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="download3" translatesAutoresizingMaskIntoConstraints="NO" id="h4a-oo-Twb">
+                                <rect key="frame" x="0.0" y="103" width="393" height="715"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UhL-Oo-Q77">
+                                <rect key="frame" x="77" y="299" width="260" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="The three little pigs">
+                                            <attributes>
+                                                <font key="NSFont" size="23" name="Helvetica"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="ce1-FJ-dxv" kind="show" id="XeD-R3-qNf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zmk-NA-Zld">
+                                <rect key="frame" x="77" y="511" width="260" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="The boy who cried wolf">
+                                            <attributes>
+                                                <font key="NSFont" size="23" name="Helvetica"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="KHs-JV-r0J" kind="show" id="OGP-k8-Soe"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Rsi-iL-VcB"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="h4a-oo-Twb" firstAttribute="leading" secondItem="Rsi-iL-VcB" secondAttribute="leading" id="9O3-LT-yzK"/>
+                            <constraint firstItem="Rsi-iL-VcB" firstAttribute="trailing" secondItem="h4a-oo-Twb" secondAttribute="trailing" id="GLT-ED-AHC"/>
+                            <constraint firstItem="Rsi-iL-VcB" firstAttribute="bottom" secondItem="h4a-oo-Twb" secondAttribute="bottom" id="MYO-zZ-QiC"/>
+                            <constraint firstItem="h4a-oo-Twb" firstAttribute="top" secondItem="Rsi-iL-VcB" secondAttribute="top" id="fLg-4T-8zb"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="NLs-wq-As2"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bFU-DA-pQM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2038.9312977099237" y="-347.18309859154931"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="DQf-K2-IKw">
+            <objects>
+                <viewController id="ce1-FJ-dxv" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="SU0-eU-gRc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="images5" translatesAutoresizingMaskIntoConstraints="NO" id="ogk-p4-vi4">
+                                <rect key="frame" x="0.0" y="103" width="393" height="715"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Jxg-Zh-SXZ">
+                                <rect key="frame" x="52" y="114" width="288" height="575"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <mutableString key="text">Once upon a time there was an old mother pig who had three little pigs and not enough food to feed them. So when they were old enough, she sent them out into the world to seek their fortunes.
+
+The first little pig was very lazy. He didn't want to work at all and he built his house out of straw. The second little pig worked a little bit harder but he was somewhat lazy too and he built his house out of sticks. Then, they sang and danced and played together the rest of the day.
+
+The third little pig worked hard all day and built his house with bricks. It was a sturdy house complete with a fine fireplace and chimney. It looked like it could withstand the strongest winds.
+
+The next day, a wolf happened to pass by the lane where the three little pigs lived; and he saw the straw house, and he smelled the pig inside. He thought the pig would make a mighty fine meal and his mouth began to water.
+
+So he knocked on the door and said:
+
+  Little pig! Little pig!
+  Let me in! Let me in!</mutableString>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UoB-MO-xmQ">
+                                <rect key="frame" x="267" y="715" width="77" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Next &gt;">
+                                            <attributes>
+                                                <font key="NSFont" size="18" name="Helvetica"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="6t6-V2-mkl" kind="show" id="8mf-Of-Wtf"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Xp9-Io-WMW"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ogk-p4-vi4" firstAttribute="top" secondItem="Xp9-Io-WMW" secondAttribute="top" id="Ngc-z2-Qfg"/>
+                            <constraint firstItem="Xp9-Io-WMW" firstAttribute="trailing" secondItem="ogk-p4-vi4" secondAttribute="trailing" id="cSg-TB-E7k"/>
+                            <constraint firstItem="Xp9-Io-WMW" firstAttribute="bottom" secondItem="ogk-p4-vi4" secondAttribute="bottom" id="elo-Br-bzg"/>
+                            <constraint firstItem="ogk-p4-vi4" firstAttribute="leading" secondItem="Xp9-Io-WMW" secondAttribute="leading" id="vOe-IR-wsy"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="hBo-Oi-4cs"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cZN-aa-3zb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3238.9312977099235" y="-657.04225352112678"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ajQ-c0-8Ua">
+            <objects>
+                <viewController id="6t6-V2-mkl" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zaR-1M-Dih">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="images6" translatesAutoresizingMaskIntoConstraints="NO" id="s7T-HI-fPW">
+                                <rect key="frame" x="0.0" y="103" width="393" height="715"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Afm-Vk-B1y">
+                                <rect key="frame" x="50" y="128" width="292" height="665"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <mutableString key="text">But the little pig saw the wolf's big paws through the keyhole, so he answered back:
+
+  No! No! No! 
+  Not by the hairs on my chinny chin chin!
+Three Little Pigs, the straw houseThen the wolf showed his teeth and said:
+
+  Then I'll huff 
+  and I'll puff 
+  and I'll blow your house down.
+So he huffed and he puffed and he blew the house down! The wolf opened his jaws very wide and bit down as hard as he could, but the first little pig escaped and ran away to hide with the second little pig.The wolf continued down the lane and he passed by the second house made of sticks; and he saw the house, and he smelled the pigs inside, and his mouth began to water as he thought about the fine dinner they would make.
+
+So he knocked on the door and said:
+
+  Little pigs! Little pigs!
+  Let me in! Let me in!
+But the little pigs saw the wolf's pointy ears through the keyhole, so they answered back:
+
+  No! No! No!
+  Not by the hairs on our chinny chin chin!
+So the wolf showed his teeth and said:
+
+  Then I'll huff 
+  and I'll puff 
+  and I'll blow your house down!</mutableString>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="4gy-24-fVj"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="s7T-HI-fPW" firstAttribute="top" secondItem="4gy-24-fVj" secondAttribute="top" id="6np-gZ-zEk"/>
+                            <constraint firstItem="4gy-24-fVj" firstAttribute="trailing" secondItem="s7T-HI-fPW" secondAttribute="trailing" id="FGW-H7-t8C"/>
+                            <constraint firstItem="4gy-24-fVj" firstAttribute="bottom" secondItem="s7T-HI-fPW" secondAttribute="bottom" id="JXQ-ci-bJh"/>
+                            <constraint firstItem="s7T-HI-fPW" firstAttribute="leading" secondItem="4gy-24-fVj" secondAttribute="leading" id="NHh-Uj-1k8"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Qdb-ZD-QLb"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Csg-kq-Cc2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4064.8854961832058" y="-657.04225352112678"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="V2Y-dP-FVb">
+            <objects>
+                <viewController id="KHs-JV-r0J" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="SUs-xj-87B">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="images7" translatesAutoresizingMaskIntoConstraints="NO" id="J7n-x8-i1x">
+                                <rect key="frame" x="0.0" y="103" width="393" height="715"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="UUE-Go-wXB">
+                                <rect key="frame" x="38" y="118" width="316" height="674"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <mutableString key="text">Once, there was a boy who became bored when he watched over the village sheep grazing on the hillside. To entertain himself, he sang out, “Wolf! Wolf! The wolf is chasing the sheep!”
+
+When the villagers heard the cry, they ran up the hill to drive the wolf away. But when they arrived, they saw no wolf. The boy was amused when he saw their angry faces.
+
+
+“Don’t scream wolf when there is no wolf, boy!” the villagers warned. They angrily went back down the hill.
+
+Later, the shepherd boy cried out once again, “Wolf! Wolf! The wolf is chasing the sheep!” To his amusement, the villagers came running up the hill to scare the wolf away.
+
+As they saw there was no wolf, they said strictly, “Save your frightened cry for when there really is a wolf! Don’t cry ‘wolf’ when there is no wolf!” But the boy grinned at their words while they walked, grumbling down the hill once more.
+
+
+Later, the boy saw a real wolf sneaking around his flock. Alarmed, he jumped on his feet and cried out as loud as he could, “Wolf! Wolf!” But the villagers thought he was fooling them again, and they didn’t come to help.
+
+At sunset, the villagers went looking for the boy who hadn’t returned with their sheep. When they went up the hill, they found him weeping.</mutableString>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="r2Y-a3-svM"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="J7n-x8-i1x" firstAttribute="leading" secondItem="r2Y-a3-svM" secondAttribute="leading" id="Kvf-ph-Ax2"/>
+                            <constraint firstItem="J7n-x8-i1x" firstAttribute="top" secondItem="r2Y-a3-svM" secondAttribute="top" id="PcC-gs-yHX"/>
+                            <constraint firstItem="r2Y-a3-svM" firstAttribute="trailing" secondItem="J7n-x8-i1x" secondAttribute="trailing" id="aEb-MR-JVS"/>
+                            <constraint firstItem="r2Y-a3-svM" firstAttribute="bottom" secondItem="J7n-x8-i1x" secondAttribute="bottom" id="vYq-Bi-4Gv"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Rf3-Ar-xZy"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qDl-ce-skQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3238.9312977099235" y="41.549295774647888"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="av0-6r-rZK">
+            <objects>
+                <viewController id="Xeq-ry-ySK" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oOY-h3-rWf">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="download2" translatesAutoresizingMaskIntoConstraints="NO" id="HlT-GU-GUk">
+                                <rect key="frame" x="0.0" y="103" width="393" height="715"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0Wh-N3-p8D">
+                                <rect key="frame" x="76" y="348" width="240" height="141"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">This App is for story telling to kids
+Level 1 : age 1 to 5
+Level 2: age 5 to 10
+
+Developed by : Akshit Patel                      Guided by : Prof. Jainesh Desai</string>
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" metaFont="system" size="14"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ANW-Dk-anu"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="y5l-l9-QQN"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Z86-Va-sT1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1027" y="858"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Fns-Ud-CUf">
+            <objects>
+                <viewController id="ior-DW-onN" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eg3-6E-iEc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="download4" translatesAutoresizingMaskIntoConstraints="NO" id="TrH-et-uBl">
+                                <rect key="frame" x="0.0" y="103" width="393" height="715"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5fI-Nn-T4W">
+                                <rect key="frame" x="108" y="406" width="177" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="The stellar one">
+                                            <attributes>
+                                                <font key="NSFont" size="23" name="Helvetica"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="DmO-zq-Pgs" kind="show" id="L4G-XN-DWV"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Qbw-p3-92B"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="TrH-et-uBl" firstAttribute="leading" secondItem="Qbw-p3-92B" secondAttribute="leading" id="8fv-2A-Kug"/>
+                            <constraint firstItem="TrH-et-uBl" firstAttribute="top" secondItem="Qbw-p3-92B" secondAttribute="top" id="R13-LI-aQ6"/>
+                            <constraint firstItem="Qbw-p3-92B" firstAttribute="trailing" secondItem="TrH-et-uBl" secondAttribute="trailing" id="R9l-gn-ZRg"/>
+                            <constraint firstItem="Qbw-p3-92B" firstAttribute="bottom" secondItem="TrH-et-uBl" secondAttribute="bottom" id="Zoo-G7-fBc"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="fPy-3s-ZXl"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HsH-1q-cfB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2039" y="435"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="t1A-C2-Olk">
+            <objects>
+                <viewController id="DmO-zq-Pgs" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6SM-yi-eLZ">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="images8" translatesAutoresizingMaskIntoConstraints="NO" id="Foa-EX-JDm">
+                                <rect key="frame" x="0.0" y="103" width="393" height="715"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qSe-Ld-00o">
+                                <rect key="frame" x="277" y="714" width="77" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Next &gt;">
+                                            <attributes>
+                                                <font key="NSFont" size="18" name="Helvetica"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="tQC-gi-qc5" kind="show" id="ftT-Vg-90g"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="gQN-W5-VVD">
+                                <rect key="frame" x="42" y="123" width="308" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <mutableString key="text">When the universe was young the sky was filled with planets, and stars, and stardust, and many many rocks. 
+
+One of these rocks was a bit more special than the rest.  She was unlike any that came before her. 
+
+
+She was a kind and happy rock, who always floated near a big blue planet. 
+
+Sometimes when the light hit her surface, she would glow a brilliant green.  At times like those, she almost didn't look like a rock at all. 
+
+
+As the sky moved from day to day, and week to week, the rock would see planets far off in the distance. 
+
+She would wonder what it would be like to go to them. Week after week and month after month she would wonder. Until one day she decided to go find out. 
+
+
+The rock had never gone anywhere before and wasn't sure how to go about it. 
+
+She started to rock back and forth.
+
+Then she started to spin. </mutableString>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="UWh-bk-QzJ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="UWh-bk-QzJ" firstAttribute="trailing" secondItem="Foa-EX-JDm" secondAttribute="trailing" id="RRI-F8-aa8"/>
+                            <constraint firstItem="UWh-bk-QzJ" firstAttribute="bottom" secondItem="Foa-EX-JDm" secondAttribute="bottom" id="UZh-iV-3Cj"/>
+                            <constraint firstItem="Foa-EX-JDm" firstAttribute="top" secondItem="UWh-bk-QzJ" secondAttribute="top" id="Ye3-vd-gua"/>
+                            <constraint firstItem="Foa-EX-JDm" firstAttribute="leading" secondItem="UWh-bk-QzJ" secondAttribute="leading" id="cke-ql-oNH"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="f7J-Iu-TNM"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fxl-YY-Aju" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3238.9312977099235" y="857.74647887323943"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="6gA-Il-WRO">
+            <objects>
+                <viewController id="tQC-gi-qc5" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qah-W3-pI7">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="images9" translatesAutoresizingMaskIntoConstraints="NO" id="GPb-Fk-Y6R">
+                                <rect key="frame" x="0.0" y="103" width="393" height="715"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ZI7-R1-YFD">
+                                <rect key="frame" x="38" y="119" width="316" height="682"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <mutableString key="text">Soon enough, she was flying through the sky. 
+
+As she left, clouds swirled on the big blue planet. For it was sad to see her go, and when planets cry there is a rain storm. 
+
+At first the rock was not good at moving. She would spin too far to the right or too far to the left. Slowly she learned how to travel whichever direction she liked, and she enjoyed exploring space. 
+
+She saw a planet filled with water, with not a speck of land.
+
+Then found a planet all dried up, with beaches made of sand.
+
+She swore she met a planet who looked suspiciously like her.
+
+And then she saw a planet that was, well… she wasn’t sure. 
+
+One planet she discovered, had grown forests made of green.
+
+Another one was very shy, not fond of being seen.
+
+She flew right by a planet, that was frozen icy cold.
+
+And then she saw a planet that was made of jewels and gold!
+
+She had started to notice that each planet seemed brighter than the last. 
+
+They were all so different and all so pretty. </mutableString>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="jVQ-5Q-B1B"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="GPb-Fk-Y6R" firstAttribute="leading" secondItem="jVQ-5Q-B1B" secondAttribute="leading" id="Qbx-kl-MJL"/>
+                            <constraint firstItem="jVQ-5Q-B1B" firstAttribute="trailing" secondItem="GPb-Fk-Y6R" secondAttribute="trailing" id="VN2-2g-1eb"/>
+                            <constraint firstItem="jVQ-5Q-B1B" firstAttribute="bottom" secondItem="GPb-Fk-Y6R" secondAttribute="bottom" id="Z16-2b-7V7"/>
+                            <constraint firstItem="GPb-Fk-Y6R" firstAttribute="top" secondItem="jVQ-5Q-B1B" secondAttribute="top" id="bFz-s7-kZs"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="rGY-iy-cvV"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uRY-tG-eo0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4064.8854961832058" y="857.74647887323943"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Rm9-7R-5xT">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="tV6-Jt-Id6" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="oRO-1f-xjw">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="OYT-cK-1gx"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gjA-Yx-uHD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="101.5267175572519" y="4.9295774647887329"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="download1" width="275" height="183"/>
+        <image name="download2" width="275" height="183"/>
+        <image name="download3" width="300" height="168"/>
+        <image name="download4" width="275" height="183"/>
+        <image name="images5" width="290" height="174"/>
+        <image name="images6" width="275" height="183"/>
+        <image name="images7" width="275" height="183"/>
+        <image name="images8" width="299" height="168"/>
+        <image name="images9" width="259" height="194"/>
+        <image name="info.circle" catalog="system" width="128" height="123"/>
+        <systemColor name="labelColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
